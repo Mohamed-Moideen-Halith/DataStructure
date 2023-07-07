@@ -1,0 +1,37 @@
+package Set;
+
+import com.sun.security.jgss.GSSUtil;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
+
+
+public class Set {
+    public static void main(String[] args) {
+    HashSet s = new HashSet();
+   
+        s.add(10);
+        s.add(20);
+        s.add(30);
+        s.add(40);
+        System.out.println(s);
+        LinkedHashSet w = new LinkedHashSet();
+
+        w.add(10);
+        w.add(20);
+        w.add(30);
+        w.add(40);
+        System.out.println(w);
+
+        TreeSet t = new TreeSet();
+        
+        t.add(40);
+        t.add(30);
+        t.add(20);
+        t.add(10);
+        System.out.println(t);
+
+
+    }
+}
